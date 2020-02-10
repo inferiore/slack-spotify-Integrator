@@ -1,0 +1,10 @@
+endpoints:
+  login: https://accounts.spotify.com/api/token
+  pause: https://api.spotify.com/v1/me/player/pause
+  play: https://api.spotify.com/v1/me/player/play
+  skip: https://api.spotify.com/v1/me/player/next
+login: https://accounts.spotify.com/en/authorize?client_id=c85b4fb547c04799937ea40b5099fdbd&response_type=code&redirect_uri=https://111c3ea4.ngrok.io/spotify-login&scope=streaming
+device_id: '794745215392ddef0adf6f423f686b75c0b940f4'
+client_id: "c85b4fb547c04799937ea40b5099fdbd"
+client_secret: "a386c7a6b846439b87dc88c01844cd42"
+public_url: 'https://111c3ea4.ngrok.io/spotify-login'
